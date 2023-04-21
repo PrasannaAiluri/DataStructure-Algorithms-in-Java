@@ -6,19 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="datastructure" />
         <module name="systemdesign" />
+        <module name="datastructure" />
         <module name="codingportals" />
         <module name="utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Algorithms" target="8" />
       <module name="basics" target="8" />
-      <module name="codingportals" target="8" />
-      <module name="datastructure" target="8" />
-      <module name="systemdesign" target="8" />
-      <module name="utils" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
